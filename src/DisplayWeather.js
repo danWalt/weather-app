@@ -50,6 +50,7 @@ function initialize(temp, feelsLike, dayMax, dayMin, currentCity) {
   shownDayMax(currentCity, dayMax);
   shownDayMin(currentCity, dayMin);
   flag = false;
+  //const textDiv = document.createElement('div')
 
   function showTemp(currentCity, temp) {
     const tempH2 = document.createElement("h2");

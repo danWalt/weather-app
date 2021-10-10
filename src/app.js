@@ -1,7 +1,7 @@
 import { processData } from "./DisplayWeather.js";
 import { getCityWeather } from "./GetCityWeather.js";
 
-let defaultCity = "london";
+const defaultCity = "london";
 
 // immediately envoked function to show the first values
 (async function firstRun() {
